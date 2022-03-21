@@ -81,10 +81,16 @@ const test = clothes.map(clothe => {
     }   
 })
 
-const A = [1, 2, 3, 4, 5]
+const A = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 const test2 = A.map(num => {
     return num += 1;
 })
 
-console.log(test2)
+// console.log(test2)
+
+const test3 = A.filter(num => {
+    return num % 2 == 0
+})
+
+console.log(test3);
